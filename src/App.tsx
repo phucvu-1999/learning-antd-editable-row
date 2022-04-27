@@ -96,6 +96,7 @@ function App() {
     });
 
     setDataSource(updatedDataSource);
+    setEditingRow(null);
   };
 
   return (
